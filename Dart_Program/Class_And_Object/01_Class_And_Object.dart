@@ -1,19 +1,17 @@
-void main()
- {
-    ///Entery Point Function
-    // class & Object
-    //class
+void main() {
+  ///Entery Point Function
+  // class & Object
+  //class
 }
-class Home 
-{
-    dynamic? vita;
 
-    ///Character ,Data Member , Variable
-    dynamic? cement;
+class Home {
+  dynamic? vita;
 
-  void compaundgate(dynamic vita, dynamic cement)
-   {
-      ///Behaviour,Member function,function
-      print("complete Gate And Compund");
+  ///Character ,Data Member , Variable
+  dynamic? cement;
+
+  void compaundgate(dynamic vita, dynamic cement) {
+    ///Behaviour,Member function,function
+    print("complete Gate And Compund");
   }
 }
