@@ -1,0 +1,4 @@
+<h3>Flutter is an open-source UI software development kit created by Google. It can be used to develop cross platform applications from a single codebase for the web, Fuchsia, Android, iOS, Linux, macOS, and Windows. First described in 2015,Flutter was released in May 2017. Flutter is used internally by Google in apps such as Google Pay 
+Flutter is an open-source UI software development kit created by Google. It can be used to develop cross platform applications from a single codebase for the web, Fuchsia, Android, iOS, Linux, macOS, and Windows. First described in 2015,Flutter was released in May 2017. Flutter is used internally by Google in apps such as Google Pay
+When building  application with flutter evrything is towards interface 
+It Uses dart programming languages comes with ready to use Widgets for designing  user interface</h3>
