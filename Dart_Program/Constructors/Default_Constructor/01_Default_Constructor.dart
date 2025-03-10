@@ -13,9 +13,18 @@ class Addition
     int Sum=No1+No2;
     print(Sum);
   }
+  sub()                         //Constructor
+  {
+    print("Sub");
+  }
+  div()                          ///Constructor
+  {
+    print("Div");
+  }
 }
 void main()
 {
   Addition obj=Addition();
-
+        obj.sub();                ///Object CAll
+        obj.div();
   }
