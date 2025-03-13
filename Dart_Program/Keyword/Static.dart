@@ -4,9 +4,7 @@ class Student {
   int? mark;
   static int? temp;
 
-  Student(String nm, String ad, int m)
-
-  ///Constructor
+  Student(String nm, String ad, int m)    ///Constructor
   {
     name = nm;
     address = ad;
@@ -21,7 +19,7 @@ class Student {
 }
 
 void main() {
-  //Entry Point Function
+ 
   Student obj1 = new Student("prachi", "Malwadi", 70);
   obj1.name;
 
