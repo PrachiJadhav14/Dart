@@ -1,17 +1,30 @@
-void main() {
-  ///Entery Point Function
-  // class & Object
-  //class
+class Student {
+  String? name;
+  String? address;
+  int? mark;
+  static int? temp;
+
+  Student(String nm, String ad, int m)
+
+  ///Constructor
+  {
+    name = nm;
+    address = ad;
+    mark = m;
+  }
+
+  void printStdInfo() {
+    print(this.name);
+    print(this.address);
+    print(this.mark);
+  }
 }
 
-class Home {
-  dynamic? vita;
+void main() {
+  //Entry Point Function
+  Student obj1 = new Student("prachi", "Malwadi", 70);
+  obj1.name;
 
-  ///Character ,Data Member , Variable
-  dynamic? cement;
-
-  void compaundgate(dynamic vita, dynamic cement) {
-    ///Behaviour,Member function,function
-    print("complete Gate And Compund");
-  }
+  Student.temp = 60;
+  obj1.printStdInfo();
 }
