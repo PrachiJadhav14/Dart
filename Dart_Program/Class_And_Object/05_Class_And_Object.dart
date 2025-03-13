@@ -3,12 +3,13 @@ class Student
     String? name;
     String? address;
     int? mark;
-
     static int? temp;
 
-  String homework(String ass) 
+  Student (String nm,String ad,int m) 
   {
-     return "Asssignment ass";
+     name =nm;
+     address = ad;
+     mark = m;
   }
 
   void printStdInfo()
@@ -17,14 +18,13 @@ class Student
       print(this.address);
       print(this.mark);
   }
-
-  static void demo() {}
+ 
   void main() 
   {
       //Entry Point Function
-      Student obj1 = new Student();
+      Student obj1 = new Student("prachi" , "Malwadi" , 70);
       obj1.name;
 
-      Student.temp;
+      Student.temp=;
   }
 }
