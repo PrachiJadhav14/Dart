@@ -1,5 +1,6 @@
 class Demo {
-  add(int No1, int No2) {                 //Positional Parameter
+
+  add(int No1,int No2) {                 //Positional Parameter
     int Sum = No1 + No2;
     print(Sum);
     // return Sum;
