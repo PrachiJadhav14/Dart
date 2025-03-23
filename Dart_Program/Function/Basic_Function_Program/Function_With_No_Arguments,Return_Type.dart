@@ -20,11 +20,11 @@
 
 // }
 
-
 String Name(){
     return  "Hello Flutter";         
 }
 void main(){
   String printName = Name();
   print(printName);
+  print(printName.runtimeType);
 }
