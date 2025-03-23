@@ -1,3 +1,5 @@
+///Function With Argument & No Return Type
+///
 // void Sum (int No1 , int No2){
 //   print("The Sum is ${No1+No2}");
 // }
@@ -7,7 +9,7 @@
 // }
 
 String? StudentName(Name){
-  print("Product Full Name Is ${Name}");
+  print("Student  Name Is ${Name}");
 }
  void main(){
   StudentName("Prachi");
