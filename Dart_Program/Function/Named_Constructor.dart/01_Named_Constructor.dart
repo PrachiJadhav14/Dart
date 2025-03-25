@@ -6,8 +6,7 @@ Calculator({required int No1,required int No2}){                               /
   }
  
 }
-
 void main(){
-  Calculator obj = Calculator(No1: 435, No2: 2);    
-                                 //Object Call
+  Calculator obj = Calculator(No1: 435, No2: 2);    //Object Call
+                                 
 }
