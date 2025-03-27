@@ -2,8 +2,6 @@ import 'dart:io';
 
 class Addition {
   Addition()             ///Default Constructor
-
-  
   {
     stdout.write("Enter First No => ");
     int No1 = int.parse(stdin.readLineSync()!);
@@ -15,8 +13,6 @@ class Addition {
     print(Sum);
   }
   substarction()         ///Function
-
- 
   {
     stdout.write("Enter First No => ");
     int No1 = int.parse(stdin.readLineSync()!);
@@ -29,8 +25,6 @@ class Addition {
   }
 
   division()          ///Function 
-
-  
   {
     stdout.write("Enter First No => ");
     double No1 = double.parse(stdin.readLineSync()!);
