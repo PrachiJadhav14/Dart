@@ -4,7 +4,7 @@
     String? address;
     int? mark;
 
-    String homework(String ass) 
+    String homework(String ass,String ad, int m) 
       {
          return "Assignment Compelte";
       }
