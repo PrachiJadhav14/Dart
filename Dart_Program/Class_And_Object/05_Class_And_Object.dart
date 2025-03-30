@@ -25,6 +25,6 @@ class Student
       Student obj1 = new Student("prachi" , "Malwadi" , 70);
       obj1.name;
 
-      Student.temp=;
+      Student.temp=20;
   }
 }
