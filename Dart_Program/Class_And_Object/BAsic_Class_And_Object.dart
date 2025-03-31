@@ -9,5 +9,6 @@ class calculation {
 
 void main() {                                   ///Entry Point Function                                        
   calculation obj = calculation();              // class of  object
-  obj.add();                                     /// object  Class
+  obj.add();
+                              /// object  Class
 }
