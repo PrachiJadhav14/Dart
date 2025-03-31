@@ -1,8 +1,10 @@
 import 'dart:io';
 
 class Addition {
-  Addition()             ///Default Constructor
+  Addition()                                                    ///Default Constructor
   {
+    print("\n This is Addition Functioon  \n");
+
     stdout.write("Enter First No => ");
     int No1 = int.parse(stdin.readLineSync()!);
 
@@ -11,9 +13,11 @@ class Addition {
 
     int Sum = No1 + No2;
     print(Sum);
+    // print(Sum.runtimeType);
   }
-  substarction()         ///Function
+  substarction()                                               ///Function
   {
+     print("\nThis is substarction Functioon\n");
     stdout.write("Enter First No => ");
     int No1 = int.parse(stdin.readLineSync()!);
 
@@ -24,9 +28,10 @@ class Addition {
     print(Sub);
   }
 
-  division()          ///Function 
+  division()                                                     ///Function
   {
-    stdout.write("Enter First No => ");
+      print("This is division Functioon");
+    stdout.write("\nEnter First No => \n");
     double No1 = double.parse(stdin.readLineSync()!);
 
     stdout.write("Enter Second Number => ");
@@ -36,8 +41,9 @@ class Addition {
     print(Div);
   }
 
-  Multiplication()       ///Function
-   {
+  Multiplication()                                                  ///Function
+  {
+    print("\n This is Multiplication Functioon\n ");
     stdout.write("Enter First No => ");
     int No1 = int.parse(stdin.readLineSync()!);
 
@@ -49,9 +55,11 @@ class Addition {
   }
 }
 
-void main() {
-  Addition obj = Addition();     ///Object CAll
-  obj.substarction();                //Function call
-  obj.division();                   //Function call
-  obj.Multiplication();              //Function call
+void main() { 
+
+   print(Addition());                                                        ///Entry Point Function
+  // Addition obj = Addition();                                         ///Object CAll
+//   obj.substarction();                                               //Function call
+//   obj.division();                                                    //Function call
+//  obj.Multiplication();                                                //Function call
 }
