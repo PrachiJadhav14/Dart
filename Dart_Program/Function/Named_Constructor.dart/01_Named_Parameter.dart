@@ -20,12 +20,14 @@
 
 
 class Addition{
-  Division({required int No1, required int No2}){
+Additiion({required int No1, required int No2}){
     int sum = No1 + No2;
     print(sum);
   }
 }
 void main(){
    Addition obj = Addition();  
-    obj.Division(No1: 45, No2: 45);                          ////Named Parameterized
+
+    obj.Additiion(No1: 45, No2: 45); 
+                          ////Named Parameterized
 }
