@@ -1,14 +1,18 @@
-class Demo {
+// class Demo {
 
-  add(int No1,int No2) {                 //Positional Parameter
-    int Sum = No1 + No2;
-    print(Sum);
-    print(runtimeType.Sum);
-    // return Sum;
-  }
-}
+//   add(int No1,int No2) {                 //Positional Parameter
+//     int Sum = No1 + No2;
+//     print(Sum);
 
-void main() {
-  Demo obj = Demo();                 ///Object Call
-  obj.add(45, 32); 
+//     // return Sum;
+//   }
+// }
+
+// void main() {
+//   Demo obj = Demo();                 ///Object Call
+//   obj.add(45, 32); 
+// }
+
+class Test {
+  
 }
