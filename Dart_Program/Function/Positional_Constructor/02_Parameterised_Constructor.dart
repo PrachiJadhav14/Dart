@@ -37,11 +37,12 @@ import 'dart:math';
 
 
 
-class Prachi{
+class  Calculation{
 
-   Prachi(int No1 , int No2){                          ///Parameterized Constructor
-       int Sum =  No1 -  No2;                           //// Function Prototype       
-      print(Sum);
+ Calculation(int No1 , int No2){                          ///Parameterized Constructor
+       int Sub =  No1 -  No2;                           //// Function Prototype       
+      print(Sub);
+       
       }
  Calce(int No1 , int No2){                          ///Parameterized Constructor
        int Sum =  No1 -  No2;                           //// Function Prototype       
@@ -49,7 +50,7 @@ class Prachi{
       
 } 
 void main(){
-  Prachi obj = Prachi(21, 21);
+   Calculation obj =  Calculation(21, 21);
    obj.Calce(56, 56);
-  
+
 }
