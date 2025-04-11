@@ -2,8 +2,8 @@
 import 'dart:io';
 class Hotel{
   Hotel(){
-    String? Name ="Vithal Kamat Hotel";
-    String? Location = "Karad";
+    String? Name ="Vithal Kamat Hotel";        //Declaration
+    String? Location = "Karad";                 //Declaration
 
     stdout.write("\n=========================********************====================\n");
 
@@ -15,7 +15,7 @@ class Hotel{
   
   }
   class Product extends Hotel{
-    Product(){
+    Product(){                                         ///Default Constructor
       
       stdout.writeln("\n Enter You're Product Menu => \n");
       stdout.writeln("\n\t 1. Noodles");
@@ -51,7 +51,7 @@ class Hotel{
   }
 
   void main(){
-    Menu obj = Menu();
-    obj.get();
-    obj.set();
+    Menu obj = Menu();                           ///Obj Call
+    obj.get();                                  
+    obj.set();                                   
   }                                     
