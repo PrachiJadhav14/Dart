@@ -1,5 +1,4 @@
 import 'dart:io';
-
 class Hotel {
   Hotel() {                                      ///Default Contructor
     
@@ -19,7 +18,7 @@ class Customer extends Hotel {
   static int id = 100;
   String? Name;                                         //Declaration
   double? Bill;                                         //Delarartion
-  void get() {                                          //Get Function
+  void info() {                                          //Get Function
     
     id++;
     stdout.writeln("Enter Customer Name is =>");
@@ -29,7 +28,7 @@ class Customer extends Hotel {
       stdout.write("\n=====================***************==================\n");
   }
 
-  void set() {                                        /////Set Function
+  void prinfInfo() {                                        /////Set Function
    
     stdout.writeln("Customer id is ${id}");
     stdout.writeln("Customer  Name is ${Name}");
@@ -41,6 +40,6 @@ class Customer extends Hotel {
 void main() {                               //Entry Point Function
  
   Customer obj = new Customer();
-  obj.get();                             //Object Call
-  obj.set();                            //Object Call
+  obj.info();                             //Object Call
+  obj.prinfInfo();                            //Object Call
 }
