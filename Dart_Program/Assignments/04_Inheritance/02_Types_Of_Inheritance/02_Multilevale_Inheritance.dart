@@ -31,7 +31,7 @@ class Hotel{
       String? Name;
       double? Price;
       
-  void get() {                                          //Get Function
+  void info() {                                          //Get Function
     stdout.writeln("\nEnter Product Company Name is =>");
     Company = stdin.readLineSync()!;
      stdout.writeln("Enter Product  Name is =>");
@@ -40,18 +40,15 @@ class Hotel{
      Price = double.parse(stdin.readLineSync()!);
   }
 
-  void set() {                                        /////Set Function
-   
+  void printInfo() {                                        /////Set Function
     stdout.writeln("\n Product Company Name is ${Company}");
     stdout.writeln("Product  Name is ${Name}");
     stdout.writeln("Product Price is ${Price}\n");
   }
-
-
   }
 
   void main(){
     Menu obj = Menu();                           ///Obj Call
-    obj.get();                                  
-    obj.set();                                   
+    obj.info();                                  
+    obj.printInfo();                                   
   }                                     
