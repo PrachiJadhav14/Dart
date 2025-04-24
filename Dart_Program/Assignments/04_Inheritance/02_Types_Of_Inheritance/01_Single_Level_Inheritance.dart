@@ -3,7 +3,6 @@ class Hotel {
   Hotel() {                                      ///Default Contructor
     String? Name = "Vithal Kamat Hotel";         ////Declaration
     String? Location = "Karad";                 //Declaration
-
     stdout.writeln( "\n==========================*******************=======================\n");
     stdout.writeln("Welcome To ${Name} ...!");
     stdout.writeln("Youre Location is ${Location}.........!");
