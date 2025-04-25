@@ -7,7 +7,6 @@ class student{
   // student(name);
   // String ? Address = "Karad";
  
-
 }
 void main(){
   student obj1 = new student("Shankar");
