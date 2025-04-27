@@ -33,3 +33,63 @@ void main() {                               //Entry Point Function
   obj.info();                             //Object Call
   obj.prinfInfo();                            //Object Call
 }
+
+
+// import 'dart:io';
+
+// class FurnitureShop {                                                         
+//   String furnitureShopName = "Ansh Furniture Shop";
+//   String? location = "Patan";
+//   String? admin = "Kisan Sutar";
+
+//   FurnitureShop() {
+//     stdout.writeln("***** Furniture Shop Information *******");
+//     stdout.writeln("furnitureShop : $furnitureShopName");
+//     stdout.writeln("location : $location");
+//     stdout.writeln("admin : $admin");
+//   }
+// }
+// class product extends FurnitureShop {                                     
+//   String? productid, category;
+ 
+//   void acceptproductinformation() {
+//     stdout.write("Enter Product Id:");
+//     productid = stdin.readLineSync()!;
+//     stdout.write("Enter Category Type :");
+//     category = stdin.readLineSync()!;
+//   }
+//   void displayproductinformation() {
+//     stdout.writeln("product information ");
+//     stdout.writeln("product name : $productid");
+//     stdout.writeln("category : $category");
+//   }
+// }
+// class Company extends product{
+//   String? productname,productcompany;
+//   double? price;
+//   void acceptproductinformation() {
+//     stdout.write("Enter productname :");
+//     productname = stdin.readLineSync()!;
+//     stdout.write("Enter productcompany :");
+//     productcompany = stdin.readLineSync()!;
+//     stdout.write("Enter Price : ");
+//     price = double.parse(stdin.readLineSync()!);
+//   }
+//   void displayproductinformation(){
+//     stdout.writeln("product infromation ");
+//     stdout.writeln("product name : $productname");
+//     stdout.writeln("product company : $productcompany");
+//     stdout.writeln("Price : ₹$price");
+//   }
+// }
+// int main() {
+//   product product1 = product();
+//   product1.acceptproductinformation();
+//   product1.displayproductinformation();
+
+//   Company company1 = Company();
+//   company1.acceptproductinformation();
+//   company1.displayproductinformation();
+
+//   return 0;
+// }
