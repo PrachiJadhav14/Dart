@@ -1,4 +1,3 @@
-
 import 'dart:io';
 
 void main(){
@@ -65,8 +64,8 @@ void main(){
 // print(listString.firstOrNull);
 
 // 14
-List<String>listString=['A','B','C','D'];
-print(listString.indexed);
+// List<String>listString=['A','B','C','D'];
+// print(listString.indexed);
 
 // 15)
 List<String>liststring=['A','B','C','D'];
